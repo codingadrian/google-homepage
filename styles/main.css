@@ -1,0 +1,52 @@
+ /**/
+
+ /*Main CSS*/
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   font-size: small;
+ }
+
+ #container {
+   width: 420px;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ #search {
+   background: #fff;
+   display: flex;
+   border: 1px solid #dfe1e5;
+   box-shadow: none;
+   border-radius: 24px;
+   height: 44px;
+   z-index: 44px;
+   margin: 0 auto;
+   width: 482px;
+ }
+
+ input[type="text"] {
+   color: white;
+   font: 16px, Arial, sans-serif;
+   border: none;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   display: flex;
+   flex: 100%;
+   height: 34px;
+   line-height: 34px;
+   width: 470px;
+   background: black;
+
+ }
+
+ img#logo {
+   width: 330px;
+   height: 121px;
+ }
