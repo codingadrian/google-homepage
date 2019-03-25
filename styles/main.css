@@ -5,17 +5,40 @@
  * {
    margin: 0;
    padding: 0;
+   text-decoration: none;
  }
 
  body {
    font-family: Arial, sans-serif;
    font-size: small;
+   color: rgba(0, 0, 0, 0.87)
+ }
+
+ ul li {
+   display: inline;
  }
 
  #container {
    width: 420px;
    margin: 0 auto;
    text-align: center;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ #top-navbar {
+   text-align: right;
+ }
+
+ a.hover:hover {
+   text-decoration: underline;
+   text-decoration-color: rgba(0, 0, 0, 0.87)
+ }
+
+ a:visited {
+   text-decoration: none;
  }
 
  #search {
@@ -30,19 +53,18 @@
    width: 482px;
  }
 
- input[type="text"] {
-   color: white;
+ #search-box {
    font: 16px, Arial, sans-serif;
+   color: black;
    border: none;
-   margin: 0;
+   margin: 5px 20px;
    padding: 0;
    outline: none;
    display: flex;
    flex: 100%;
    height: 34px;
-   line-height: 34px;
-   width: 470px;
-   background: black;
+   width: 450px;
+   background: gray;
 
  }
 
