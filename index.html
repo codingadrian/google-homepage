@@ -4,50 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Gooogle</title>
+  
+  <title>MyGooogle</title>
+  
   <link rel="stylesheet" href="styles/main.css" type="text/css">
+  <link rel="icon" href="https://www.google.com/s2/favicons?domain=www.google.com" type="image/x-icon">
 </head>
+
+<!--Body starts here-->
 <body>
 
-  <nav id=top-navbar>
-    <ul>
-      <li><a href="" class="hover">Gmail</a></li>
-      <li><a href="" class="hover">Images</a></li>
-      <li><a href="">Gmail</a></li>
-      <li><a href="">Sign in</a></li>
+  <!--This is the top nav bar-->
+  <nav>
+    <ul id="topbar">
+      <li><a href="" class="topbar">Gmail</a></li>
+      <li><a href="" class="topbar">Images</a></li>
+      <li><a href="" class="topbar"><img src="./images/google-apps.png" alt="Google Apps" id="button"></a></li>
+      <li><a href="" class="topbar" id="signin">Sign in</a></li>
     </ul>
   </nav>
 
-  <div id="container">
-  <img src="images/doodle.png" alt="Gallo Pinto Doodle" id="logo">
+  <div id="container"> <!--Here starts the container-->
   
+  <!--This is the Doodle-->
+    <img src="images/doodle.png" alt="Gallo Pinto Doodle" class="logo">
+  <!--<img src="images/doodle.png" alt="Gallo Pinto Doodle">-->
+  
+  <!--This is the search bar and buttons-->
   <form action="">
-    <div id="search">
-    <input id="search-box" type="text">
+    <div>
+      <input type="text" id="search">
     </div>
     <input type="submit" value="Google Search">
     <input type="submit" value="I am Feeling Lucky">
   </form>
 
+  <!--This is the link for other languages-->
   <p>
-    Google offered in: <a href="#" class="hover">Español (Latinoamérica)</a>
+    Google offered in: <a href="#">Español (Latinoamérica)</a>
   </p>
-</div>
+  </div><!--#container-->
 
+<!--This is the footer-->
   <footer>
-    <span>Costa Rica</span>
-    <nav>
-      <ul>
-          <li><a href="" class="hover">Advertising</a></li>
-          <li><a href="" class="hover">Business</a></li>
-          <li><a href="" class="hover">About</a></li>
+    <div class="footer" id="location">
+      <span>Costa Rica</span>
+    </div>
+    <nav class="footer">
+      <ul id="foot">
+          <li><a href="">Advertising</a></li>
+          <li><a href="">Business</a></li>
+          <li><a href="">About</a></li>
 
-          <li><a href="" class="hover">Privacy</a></li>
-          <li><a href="" class="hover">Terms</a></li>
-          <li><a href="" class="hover">Settings</a></li>
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Settings</a></li>
       </ul>
-    </nav><!--#container-->
+    </nav>
   </footer>
-  
+
 </body>
 </html>
