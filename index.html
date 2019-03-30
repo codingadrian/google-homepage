@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <title>MyGooogle</title>
+  <title>Gooogle</title>
   
   <link rel="stylesheet" href="styles/main.css" type="text/css">
   <link rel="icon" href="https://www.google.com/s2/favicons?domain=www.google.com" type="image/x-icon">
@@ -17,51 +17,54 @@
   <!--This is the top nav bar-->
   <nav>
     <ul id="topbar">
-      <li><a href="" class="topbar">Gmail</a></li>
-      <li><a href="" class="topbar">Images</a></li>
-      <li><a href="" class="topbar"><img src="./images/google-apps.png" alt="Google Apps" id="button"></a></li>
-      <li><a href="" class="topbar" id="signin">Sign in</a></li>
+      <li><a href="https://mail.google.com/mail/?tab=wm" class="topbar underline">Gmail</a></li>
+      <li><a href="https://www.google.co.cr/imghp?hl=en&tab=wi" class="topbar underline">Images</a></li>
+      <li><a href="https://www.google.co.cr/intl/en/about/products?tab=wh" class="topbar"><img src="./images/google-apps.png" alt="Google Apps" id="button"></a></li>
+      <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" class="topbar" id="signin">Sign in</a></li>
     </ul>
   </nav>
 
   <div id="container"> <!--Here starts the container-->
   
   <!--This is the Doodle-->
-    <img src="images/doodle.png" alt="Gallo Pinto Doodle" class="logo">
-  <!--<img src="images/doodle.png" alt="Gallo Pinto Doodle">-->
+    <div id="logo">
+      <img src="images/doodle.png" alt="Gallo Pinto Doodle" class="logo">
+    </div>
   
   <!--This is the search bar and buttons-->
   <form action="">
-    <div>
-      <input type="text" id="search">
+    <div id="search-box">
+      <input type="text" id="search" title="Search">
     </div>
-    <input type="submit" value="Google Search">
-    <input type="submit" value="I am Feeling Lucky">
+    <div id="buttons">
+      <input type="submit" value="Google Search">
+      <input type="submit" value="I'm Feeling Lucky">
+    </div>
   </form>
 
   <!--This is the link for other languages-->
   <p>
-    Google offered in: <a href="#">Español (Latinoamérica)</a>
+    Google offered in: <a href="https://www.google.com/setprefs?sig=0_CEjmXrR-tPyTAIJpuGlD8X9FWEA%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjU7rTT76jhAhXGVN8KHbHyAxYQ2ZgBCAc" class="underline-blue">Español (Latinoamérica)</a>
   </p>
   </div><!--#container-->
 
 <!--This is the footer-->
-  <footer>
-    <div class="footer" id="location">
-      <span>Costa Rica</span>
-    </div>
-    <nav class="footer">
-      <ul id="foot">
-          <li><a href="">Advertising</a></li>
-          <li><a href="">Business</a></li>
-          <li><a href="">About</a></li>
 
-          <li><a href="">Privacy</a></li>
-          <li><a href="">Terms</a></li>
-          <li><a href="">Settings</a></li>
-      </ul>
-    </nav>
-  </footer>
+<footer>
+  <div class="floc">Costa Rica</div>
+  <div class="fbar">
+    <span>
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjh9MTp76jhAhXRneAKHXUDClcQkdQCCA4&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_cr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw0f95p6p_aAk9Nd-Lw4OstR" class="underline">Advertising</a>
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjh9MTp76jhAhXRneAKHXUDClcQktQCCA8&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K" class="underline">Business</a>
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjh9MTp76jhAhXRneAKHXUDClcQkNQCCBA&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_cr%2Fabout%2F%3Futm_source%3Dgoogle-CR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw1nQV0IzBaku3xSx2pPuc35" class="underline">About</a>
+    </span>
+    <span id="fbar-right">
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjh9MTp76jhAhXRneAKHXUDClcQ8awCCAo&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_cr%2Fpolicies%2Fprivacy%2F%3Ffg%3D1&usg=AOvVaw3ZV8z2ohPtjKqXeyjQSw1T" class="underline">Privacy</a>
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjh9MTp76jhAhXRneAKHXUDClcQ8qwCCAs&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_cr%2Fpolicies%2Fterms%2F%3Ffg%3D1&usg=AOvVaw0-D00x5sZNXGj_BCd_uJbW" class="underline">Terms</a>
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjh9MTp76jhAhXRneAKHXUDClcQzq0CCAw&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F" class="underline">Settings</a>
+    </span>
+  </div>
+</footer>
 
 </body>
 </html>
